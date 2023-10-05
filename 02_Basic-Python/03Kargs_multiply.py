@@ -29,11 +29,11 @@ print(fNam)
 # def function_name(num1, num2, *args, **kargs):
 
 # return multiple things from an array
-def a_lot(num1, num2):
+def lotOfThings(num1, num2):
     sum = num1 + num2
     mult = num1 * num2
     remain = num1 - num2
     # return [sum, mult, remain]
     return sum, mult, remain
-everything = a_lot(55, 21)
+everything = lotOfThings(55, 21)
 print(everything)

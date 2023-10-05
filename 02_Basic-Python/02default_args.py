@@ -8,8 +8,11 @@ print('Total', total)
 # *args
 def all_sum(num1,num2,*numbers):
     print(numbers)
+    sum = num1+num2
     for num in numbers:
-        print(num)
+        sum+=num
+        print(num, end=" ")
+    return sum
 
 mot = all_sum(12,23,36,54,55,17,18)
 print('MOT-> ',mot)

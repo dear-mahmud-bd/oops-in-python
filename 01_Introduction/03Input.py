@@ -1,15 +1,15 @@
 money = input('My pocket money: ')
 print('Here is your money ->',money)
 
-hiraMoney = input('Hira dise: ')
+anonnaMoney = input('Anonna dise: ')
 sajMoney = input('Sajubul dise: ')
 # By default the input from user will be string type
-total = hiraMoney+sajMoney
+total = anonnaMoney+sajMoney
 print('Sob milaya Paysi->',total,'BDT')
 
-hiraMoneyInt = int(hiraMoney)
+anonnaMoneyInt = int(anonnaMoney)
 sajMoneyInt = int(sajMoney)
-totalInt = hiraMoneyInt+sajMoneyInt
+totalInt = anonnaMoneyInt+sajMoneyInt
 print('Sob milaya Int Paysi->',totalInt,'BDT')
 
 # Type casting---

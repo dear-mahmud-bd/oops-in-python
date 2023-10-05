@@ -1,4 +1,7 @@
 #  in, not, not in, is, is not
+#  >, <, >=, <=, ==, !==
+# and, or
+
 a = 4
 if a<5:
     print('5 er choto')
