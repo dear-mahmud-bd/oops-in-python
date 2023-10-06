@@ -20,3 +20,7 @@ print(numbers[4:])
 print(numbers[:5])
 print(numbers[:]) # shortcut to copy a list
 print(numbers[::-1]) #shortcut to reverse a list
+
+# list index...
+for i, num in enumerate(numbers):
+    print(i, num)
